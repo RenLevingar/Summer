@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1315FF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%233e3ece' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2369679c' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2393916b' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23beba39' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23E9E308' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 1000px;
+  z-index: 0;
+}
+
+nav {
+  z-index: 2;
+}
+
+.nav-pad-bor {
+  margin: 0;
+  padding: 0;
+}
+
+.header-txt {
+  color: yellow !important;
+  margin: 5px;
+  padding: 10px;
+  border-left: solid yellow 3px;
+  border-right: solid yellow 3px;
+}
+
+.header-txt:hover {
+  color: rgb(135, 135, 0) !important;
+  border-left: solid rgb(135, 135, 0) 3px;
+  border-right: solid rgb(135, 135, 0) 3px;
+}
+
+.stuff {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}/*# sourceMappingURL=main.css.map */
